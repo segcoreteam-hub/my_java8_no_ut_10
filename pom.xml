@@ -18,6 +18,8 @@
     <build>
         <pluginManagement>
             <plugins>
+                <!-- 3.13.0 requires Maven 3.6.3+; local Maven is 3.8.4, and release=25
+                     support needs a modern compiler plugin, so this version is kept. -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
